@@ -2,7 +2,7 @@ from flask import Flask
 import requests
 import json
 
-app = Flask("Hello World")
+app = Flask(__name__)
 
 @app.route("/status/<int:status_id>", methods=["GET"])
 def status(status_id):
@@ -10,4 +10,6 @@ def status(status_id):
     data = json.loads(request.content)
     data = [x for x in data if x['codigo'] == status_id]
     return data
-app.run()
+
+if __name__ == '__main__':
+    app.run()
