@@ -11,5 +11,23 @@ jobs:
   Build:
     runs-on: ubuntu-latest
     steps:
+
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.7.11'
+
       - name: Checkout Repo
         uses: actions/checkout@v2
+
+      - name: Install Requirements
+        run:  pip install flask
+      
+      - name: Install Requirements
+        run: pip install requests
+      
+      - name: Install Requirements
+        run: pip install json
+
+      - name: Unit Test
+        run: python -m unittest -v test
