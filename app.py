@@ -8,6 +8,6 @@ app = Flask("Hello World")
 def status():
     request = requests.get("https://www.diretodostrens.com.br/api/status")
     data = json.loads(request.content)
-    data = list(filter(lambda x: x['codigo'] == 1))
+    data = [x for x in data if x['codigo'] == 1]
     return data
 app.run()
