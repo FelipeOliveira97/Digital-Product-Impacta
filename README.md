@@ -9,6 +9,7 @@ Aplicação que verifica o status das linhas do metro de sp com base no id forne
 4 - abc
 
 Ferramentas Utilizadas para a implementação:
+Git para versionar a aplicação
 Python para o code da aplicação
 GitHubActions para pipeline CI/CD
 Heroku.
