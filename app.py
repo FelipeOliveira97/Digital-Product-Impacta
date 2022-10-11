@@ -4,7 +4,7 @@ import json
 
 app = Flask("Hello World")
 
-@app.route("/status/{status_id}", methods=["GET"])
+@app.route("/status/<int:status_id>", methods=["GET"])
 def status(status_id):
     request = requests.get("https://www.diretodostrens.com.br/api/status")
     data = json.loads(request.content)
