@@ -7,8 +7,8 @@ app = Flask(__name__)
 
 @app.route("/")
 def all():
-    x = os.environ.get("https://www.diretodostrens.com.br/api/status")
-    request = requests.get("")
+    x = os.environ.get("REQUEST_URL")
+    request = requests.get("https://www.diretodostrens.com.br/api/status")
     data = json.loads(request.content)
     return data
 
