@@ -27,7 +27,7 @@ jobs:
         run: pip install requests
         
       - name: Install Requirements
-        run: pip install os
+        run: pip install path.py
         
       - name: Unit Test
         run: python -m unittest -v test
