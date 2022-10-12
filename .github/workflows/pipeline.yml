@@ -33,9 +33,9 @@ jobs:
         run: python -m unittest -v test
 
       - name: Secret Python
+        run: python3 app.py
         env: 
           REQUEST_URL: ${{ secrets.REQUEST_URL }}
-        run: python app.py
 
   Deploy:
     needs: Build
