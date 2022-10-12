@@ -11,7 +11,7 @@ class Test(unittest.TestCase):
         x = random.randint(1,10)
         
         # envia uma requisicao GET para a URL
-        self.result = self.app.get('/status/x')
+        self.result = self.app.get('/status/ % x')
  
     def test_requisicao(self):
         # compara o status da requisicao (precisa ser igual a 200)
