@@ -28,6 +28,3 @@ jobs:
         
       - name: Unit Test
         run: python -m unittest -v test
-        
-      - name: Unit Test
-        run: pip install random
