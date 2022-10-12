@@ -1,17 +1,14 @@
 # -*- coding: utf-8 -*-
 from app import app
 import unittest
-import random
 
 class Test(unittest.TestCase):
     def setUp(self):
         # cria uma instância do unittest, precisa do nome "setUp"
         self.app = app.test_client()
-
-        x = random.randint(1,10)
         
         # envia uma requisicao GET para a URL
-        self.result = self.app.get('/status/x')
+        self.result = self.app.get('/')
  
     def test_requisicao(self):
         # compara o status da requisicao (precisa ser igual a 200)
