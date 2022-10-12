@@ -9,6 +9,7 @@ class Test(unittest.TestCase):
         
         # envia uma requisicao GET para a URL
         self.result = self.app.get('/')
+
  
     def test_requisicao(self):
         # compara o status da requisicao (precisa ser igual a 200)
