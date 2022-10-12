@@ -12,7 +12,7 @@ class Test(unittest.TestCase):
         
         # envia uma requisicao GET para a URL
         self.result = self.app.get('/status/x')
-
+ 
     def test_requisicao(self):
         # compara o status da requisicao (precisa ser igual a 200)
         self.assertEqual(self.result.status_code, 200)
