@@ -14,7 +14,6 @@ def all():
     data = json.loads(request.content)
     return data
 
-
 @app.route("/status/<int:status_id>", methods=["GET"])
 def status(status_id):
     request = requests.get(REQUEST_URL)
