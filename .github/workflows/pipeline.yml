@@ -20,6 +20,11 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v2
 
+      - name: Secret Python
+        run: python3 app.py
+        env: 
+          REQUEST_URL: ${{ secrets.REQUEST_URL }}
+
       - name: Install Requirements
         run:  pip install flask
       
@@ -31,11 +36,6 @@ jobs:
         
       - name: Unit Test
         run: python -m unittest -v test
-
-      - name: Secret Python
-        run: python3 app.py
-        env: 
-          REQUEST_URL: ${{ secrets.REQUEST_URL }}
 
   Deploy:
     needs: Build
