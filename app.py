@@ -6,17 +6,17 @@ import os
 
 app = Flask(__name__)
 
-REQUEST_URL = os.environ.get("REQUEST_URL")
-
 @app.route("/")
 def all():
-    request = requests.get(REQUEST_URL)
+    x = os.environ.get("REQUEST_URL")
+    request = requests.get(x)
     data = json.loads(request.content)
     return data
 
 @app.route("/status/<int:status_id>", methods=["GET"])
 def status(status_id):
-    request = requests.get(REQUEST_URL)
+    x = os.environ.get("REQUEST_URL")
+    request = requests.get(x)
     data = json.loads(request.content)
     data = [x for x in data if x['codigo'] == status_id]
     return data
