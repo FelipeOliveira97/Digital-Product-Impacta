@@ -25,9 +25,6 @@ jobs:
       
       - name: Install Requirements
         run: pip install requests
-
-      - name: Install Requirements
-        run: pip install os
         
       - name: Unit Test
         run: python -m unittest -v test
