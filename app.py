@@ -5,6 +5,13 @@ import json
 
 app = Flask(__name__)
 
+@app.route("/", methods=["GET"])
+def status():
+    request = requests.get("https://www.diretodostrens.com.br/api/status")
+    data = json.loads(request.content)
+    return data
+
+
 @app.route("/status/<int:status_id>", methods=["GET"])
 def status(status_id):
     request = requests.get("https://www.diretodostrens.com.br/api/status")
