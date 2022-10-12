@@ -25,9 +25,17 @@ jobs:
       
       - name: Install Requirements
         run: pip install requests
+
+      - name: Install Requirements
+        run: pip install os
         
       - name: Unit Test
         run: python -m unittest -v test
+
+      - name: Secret Python
+        env: 
+          REQUEST_URL: ${{ secrets.REQUEST_URL }}
+        run: python app.py
 
   Deploy:
     needs: Build
