@@ -5,7 +5,7 @@ import json
 
 app = Flask(__name__)
 
-@app.route("/", methods=["GET"])
+@app.route("/")
 def all():
     request = requests.get("https://www.diretodostrens.com.br/api/status")
     data = json.loads(request.content)
