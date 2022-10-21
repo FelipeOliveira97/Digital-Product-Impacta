@@ -40,3 +40,5 @@ Nessa etapa após o desenvolvimento realizamos os testes e validamos o código.
 ## Docker
 
 ## Deploy: Heroku
+
+## Desenho de solução
