@@ -1,15 +1,19 @@
 # Digital-Product-Impacta
+## Integrantes: Felipe Oliveira Cruz / Lucas Martins de Queiroz
 
-integrantes: Felipe Oliveira Cruz, Lucas Martins de Queiroz
+## Objetivo
+Facilitar o acesso do usuário a consultar o status dos trens e metros de sp.
 
-Aplicação que verifica o status das linhas do metro de sp com base no id fornecido.
-1 - abc
-2 - abc
-3 - abc
-4 - abc
 
-Ferramentas Utilizadas para a implementação:
-Git para versionar a aplicação
-Python para o code da aplicação
-GitHubActions para pipeline CI/CD
-Heroku.
+## Tecnologias Utilizadas 
+
+ -  **Python**
+ -   **Heroku**
+  -  **Git**
+  -  **Docker**
+  -  **Github Actions**
+   -  **TerraForm**
+
+## Definição de Done
+
+ - Deploy da aplicação Python através de pipeline CI/CD no github actions, assim como, uma URL válida para a aplicação web após o deploy.
