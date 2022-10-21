@@ -37,4 +37,6 @@ Nessa etapa após o desenvolvimento realizamos os testes e validamos o código.
 
  nossa pipeline foi estruturada para usar o GithubActions como ferramenta de CI/CD.
 
+## Docker
+
 ## Deploy: Heroku
