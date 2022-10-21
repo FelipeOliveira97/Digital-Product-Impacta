@@ -4,6 +4,8 @@
 ## Objetivo
 Facilitar o acesso do usuário a consultar o status dos trens e metros de sp.
 
+## Tarefas
+https://trello.com/b/FPNtwsIM/digital-product-impacta
 
 ## Tecnologias Utilizadas 
 
