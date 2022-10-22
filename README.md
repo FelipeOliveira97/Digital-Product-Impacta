@@ -3,7 +3,9 @@
 </p>
 
 <h1 align="center"> Digital-Product-Impacta </h1>
-## Integrantes: Felipe Oliveira Cruz | Lucas Martins de Queiroz
+<h2> Colaboradores </h2>
+<h3> Felipe Oliveira Cruz </h3>
+<h3> Lucas Martins de Queiroz </h3>
 
 ## Objetivo
 Facilitar o acesso do usuário a consultar o status dos trens e metros de sp.
