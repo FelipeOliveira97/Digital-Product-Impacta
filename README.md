@@ -33,14 +33,14 @@ As tarefas foram separadas em quatro epicos Desenvolvimento, PipeLine DevOps, In
 
 ## Code/Test
 
-Codificamos uma aplicação em Python [app](https://github.com/FelipeOliveira97/Digital-Product-Impacta/blob/main/app.py) utilizando o visual code, que tem como retorno os status das situações das linhas de trem/metros em SP.
+Codificamos uma aplicação em Python [app.py](https://github.com/FelipeOliveira97/Digital-Product-Impacta/blob/main/app.py) utilizando o visual code, que tem como retorno os status das situações das linhas de trem/metros em SP.
 tem como seus endpoints:
 
 [https://state-train-sp.herokuapp.com](https://state-train-sp.herokuapp.com/)
    > **Nota:** retorna os status de todas as linhas de trem/metro de sp.
    
 https://state-train-sp.herokuapp.com/status/1
-> **Nota:** retorna o status correspondente ao código da linha.
+   > **Nota:** retorna o status correspondente ao código da linha.
 
 Nessa etapa após o desenvolvimento realizamos os testes e validamos o código.
 
