@@ -5,7 +5,10 @@
 Facilitar o acesso do usuário a consultar o status dos trens e metros de sp.
 
 ## Tarefas
+as tarefas foram separadas em quatro epicos **Desenvolvimento**, **PipeLine DevOps**, **Integração com Telegram**, **Documentação**.
 https://trello.com/b/FPNtwsIM/digital-product-impacta
+![image](https://user-images.githubusercontent.com/52111260/197317992-e88579db-598c-4aa1-9b2a-b600a5e6f03b.png)
+
 
 ## Tecnologias Utilizadas 
 
