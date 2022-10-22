@@ -2,8 +2,8 @@
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 </p>
 
-# Digital-Product-Impacta
-## Integrantes: Felipe Oliveira Cruz / Lucas Martins de Queiroz
+<h1 align="center"> Digital-Product-Impacta </h1>
+## Integrantes: Felipe Oliveira Cruz | Lucas Martins de Queiroz
 
 ## Objetivo
 Facilitar o acesso do usuário a consultar o status dos trens e metros de sp.
