@@ -14,11 +14,11 @@ https://trello.com/b/FPNtwsIM/digital-product-impacta
   -  **Git**
   -  **Docker**
   -  **Github Actions**
-   -  **TerraForm**
 
 ## Definição de Done
 
  - Deploy da aplicação Python através de pipeline CI/CD no github actions, assim como, uma URL válida para a aplicação web após o deploy.
+ - Integração com o Telegram para visualização de informações.
 
 ## Code/Test
 
@@ -35,12 +35,15 @@ Nessa etapa após o desenvolvimento realizamos os testes e validamos o código.
 
 ## GitHub Actions 
 
- nossa pipeline foi estruturada para usar o GithubActions como ferramenta de CI/CD.
+Nossa pipeline foi estruturada para usar o GithubActions como ferramenta de CI/CD.
+![image](https://user-images.githubusercontent.com/52111260/197317604-dbf847f0-5628-4859-8901-e9357814c462.png)
 
 ## Docker
+Utilizamos um arquivo **Dockerfile** para criação da imagens requeridas.
 
 ## Deploy: Heroku
-![image](https://user-images.githubusercontent.com/52111260/197298902-8b659e4c-7c15-4971-9518-e319b0d1dd98.png)
+
+![image](https://user-images.githubusercontent.com/52111260/197317834-8ecf76d4-3c61-4bf5-b8b2-f9a727df14dc.png)
 
 ## Desenho de solução
 ![testeuml drawio](https://user-images.githubusercontent.com/56937166/197299234-6b965406-4ddf-40f5-bd05-301bd12e6826.png)
