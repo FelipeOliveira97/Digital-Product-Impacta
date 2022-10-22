@@ -50,7 +50,7 @@ Nossa [pipeline.yml](https://github.com/FelipeOliveira97/Digital-Product-Impacta
 ![image](https://user-images.githubusercontent.com/52111260/197317604-dbf847f0-5628-4859-8901-e9357814c462.png)
 
 ## Docker
-Utilizamos um arquivo **Dockerfile** para criação da imagens requeridas.
+Utilizamos um arquivo [Dockerfile](https://github.com/FelipeOliveira97/Digital-Product-Impacta/blob/main/Dockerfile) para criação da conteinerização dos itens requiridos [requirements.txt](https://github.com/FelipeOliveira97/Digital-Product-Impacta/blob/main/requirements.txt).
 
 ## Deploy: Heroku
 
