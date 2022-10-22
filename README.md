@@ -46,7 +46,7 @@ Nessa etapa após o desenvolvimento realizamos os testes [test.py](https://githu
 
 ## GitHub Actions 
 
-Nossa pipeline foi estruturada para usar o GithubActions como ferramenta de CI/CD.
+Nossa [pipeline.yml](https://github.com/FelipeOliveira97/Digital-Product-Impacta/blob/main/.github/workflows/pipeline.yml) foi estruturada para usar o GithubActions como ferramenta de CI/CD.
 ![image](https://user-images.githubusercontent.com/52111260/197317604-dbf847f0-5628-4859-8901-e9357814c462.png)
 
 ## Docker
