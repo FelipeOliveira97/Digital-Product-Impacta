@@ -42,7 +42,7 @@ tem como seus endpoints:
 https://state-train-sp.herokuapp.com/status/1
    > **Nota:** retorna o status correspondente ao código da linha.
 
-Nessa etapa após o desenvolvimento realizamos os testes [test.py]([app.py](https://github.com/FelipeOliveira97/Digital-Product-Impacta/blob/main/app.py)) e validamos o código.
+Nessa etapa após o desenvolvimento realizamos os testes [test.py](https://github.com/FelipeOliveira97/Digital-Product-Impacta/blob/main/app.py) e validamos o código.
 
 ## GitHub Actions 
 
