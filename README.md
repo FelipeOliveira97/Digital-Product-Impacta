@@ -16,15 +16,6 @@ as tarefas foram separadas em quatro epicos **Desenvolvimento**, **PipeLine DevO
 ![image](https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white)
 ![image](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
 ![image](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![image](BadgeURLAqui)
-
-## Tecnologias Utilizadas 
-
- -  **Python**
- -   **Heroku**
-  -  **Git**
-  -  **Docker**
-  -  **Github Actions**
 
 ## Definição de Done
 
