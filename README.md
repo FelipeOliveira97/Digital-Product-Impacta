@@ -8,7 +8,8 @@
 <h4> Lucas Martins de Queiroz </h4>
 
 ## Objetivo
-Facilitar o acesso do usuário a consultar o status dos trens e metros de sp.
+Mesclar a ideia de um projeto pessoal e util para o meu dia-a-dia com ensinamentos aprendidos no mba de cloud & devOps,
+facilitar o acesso do usuário a consultar o status dos trens e metros de sp em tempo real via Telegram.
 
 ## Tarefas
 As tarefas foram separadas em quatro epicos Desenvolvimento, PipeLine DevOps, Integração com Telegram, Documentação.
